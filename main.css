@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(26, 25, 25);
+}
+.header{
+    justify-content: end;
+    color: white;
+    display: flex;
+    padding: 10px; 
+}
+.header > div span{
+    margin-left: 15px;
+}
+.menu{
+    padding: 10px;
+}
+.menu:hover{
+background-color: grey;
+border-radius: 50%;
+}
+.user{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.gmail:hover, .images:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+h1{
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    color: white;
+    font-family: arial,sans-serif;
+    text-align: center;
+}
+main{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.search-box{
+    padding: 10px;
+    width: 550px;
+    border-radius: 18px;
+    border: 1px solid grey;
+    align-items: center;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input{
+    width: 400px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border-color: rgb(59, 54, 54);
+    
+}
+.microphone, .search, .camera{
+    
+    color: aquamarine;
+}
+.search-box:hover{
+    box-shadow: 0px 2px 4px grey;
+}
+.below-search{
+
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+}
+.below-search button{
+    padding:10px;
+    background-color: rgb(39, 39, 41);
+    border-radius: 5px;
+    color: white;
+   
+}
+.languages{
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    text-indent: 15px;
+}
+.offer{
+    color: white;
+}
+.hausa, .igbo, .yoruba, .pidgin{
+    color: rgb(127, 127, 207);
+}
+footer{
+display: flex;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.footer{
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+}
+
+.about, .advert, .business, .works{
+    text-align: left;
+    
+    margin-right: 20px;
+}
+.privary, .terms, .settings{
+    text-align: end;
+    margin-left: 20px;
+    
+}
+ .carbon{
+    text-align:center;
+ margin-left: 220px;
+ margin-right: 220px;
+ }   
+   
